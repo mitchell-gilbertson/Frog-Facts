@@ -1,0 +1,16 @@
+/* Theme Name: Frog Facts */
+.frog {
+  background-size: 100% auto;
+  background-position: 50% 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-aspect-ratio: 3/4) {
+  .frog {
+    background-size: auto 100%;
+  }
+}
